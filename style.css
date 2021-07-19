@@ -1,0 +1,58 @@
+h5{
+    font-family: 'Tourney', cursive;
+}
+p , h4 ,.button {
+        font-family: 'Work Sans', sans-serif;}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  background-color:white;
+  margin: 0;
+}
+p{
+    color: rgb(88, 87, 88);
+}
+
+h5 {
+  margin: 40px auto;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #f1f508;
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 25px rgb(240, 47, 12),
+    -10px 10px 25px rgb(50, 129, 56),
+    -10px -10px 25px rgb(207, 28, 15),
+    10px -10px 25px rgb(29, 29, 201);
+}
+h4 ,{
+    color: rgb(241, 239, 240);
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+
+}
+.half-width img{
+    width: 80%;
+}
+.button{
+    
+    text-decoration: none;
+    color: rgb(243, 250, 243);
+    background: linear-gradient(to top right, #c5c21c 0%, #383834 100%);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: no-drop;
+    
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat ;
+
+    
+    
+}
