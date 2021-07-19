@@ -78,6 +78,7 @@ h4{
     border-image: linear-gradient(#9e9eaa, #1725c0);
     border-left: 5px solid;
     border-image-slice: 1;
+    border-radius: 5px;
 
     
 
@@ -91,8 +92,14 @@ h4{
     border-image: linear-gradient(#c94a18, #dfc21e);
     border-left: 5px solid;
     border-image-slice: 1;
+    border-radius: 5px;
 }
-.continer{
+.experience-img{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.container{
     text-align: center;
     text-shadow: 7px 7px  15px;
 }
